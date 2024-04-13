@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "package": "net.legacyfabric.resourceloader.mixin.resource.loader",
+  "compatibilityLevel": "JAVA_8",
+  "client": [
+    "DefaultResourcePackMixin",
+    "KeyedResourceReloadListenerMixin$Client",
+    "KeyedResourceReloadListenerMixin$Server",
+    "MinecraftClientMixin",
+    "ReloadableResourceManagerImplMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "MinecraftServerMixin"
+  ]
+}
